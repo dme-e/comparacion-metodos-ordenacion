@@ -1,0 +1,501 @@
+id;insumo;stock
+ITEM-0001;Pinza Mosquito;500
+ITEM-0002;Alcohol 70% 1L;499
+ITEM-0003;Guante Nitrilo Talla M;498
+ITEM-0004;Esparadrapo 5cm;497
+ITEM-0005;Jeringa 10ml;496
+ITEM-0006;Jeringa 5ml;495
+ITEM-0007;Jeringa 5ml;494
+ITEM-0008;Alcohol 70% 500ml;493
+ITEM-0009;Esparadrapo 5cm;492
+ITEM-0010;Alcohol 70% 1L;491
+ITEM-0011;Cinta Micropore 1;490
+ITEM-0012;Esparadrapo 5cm;489
+ITEM-0013;Agujas 25G;488
+ITEM-0014;Tijeras Curvas;487
+ITEM-0015;Guante Latex Talla S;486
+ITEM-0016;Tijeras Rectas;485
+ITEM-0017;Venda Elástica 10cm;484
+ITEM-0018;Guante Nitrilo Talla L;483
+ITEM-0019;Guante Nitrilo Talla M;482
+ITEM-0020;Guante Latex Talla S;481
+ITEM-0021;Gasas 5x5;480
+ITEM-0022;Jeringa 5ml;479
+ITEM-0023;Suero Fisiológico 500ml;478
+ITEM-0024;Pinza Kelly;477
+ITEM-0025;Guante Nitrilo Talla M;476
+ITEM-0026;Tijeras Curvas;475
+ITEM-0027;Gasas 5x5;474
+ITEM-0028;Cinta Micropore 2;473
+ITEM-0029;Pinza Mosquito;472
+ITEM-0030;Cinta Micropore 2;471
+ITEM-0031;Tijeras Curvas;470
+ITEM-0032;Venda Elástica 10cm;469
+ITEM-0033;Jeringa 5ml;468
+ITEM-0034;Algodón 250g;467
+ITEM-0035;Tijeras Rectas;466
+ITEM-0036;Jeringa 10ml;465
+ITEM-0037;Guantes Esterilizados Par;464
+ITEM-0038;Agujas 23G;463
+ITEM-0039;Guante Nitrilo Talla M;462
+ITEM-0040;Esparadrapo 2.5cm;461
+ITEM-0041;Guantes Esterilizados Par;460
+ITEM-0042;Gasas 10x10;459
+ITEM-0043;Cinta Micropore 2;458
+ITEM-0044;Venda Elástica 10cm;457
+ITEM-0045;Mascarilla N95;456
+ITEM-0046;Jeringa 10ml;455
+ITEM-0047;Alcohol 70% 500ml;454
+ITEM-0048;Gasas 5x5;453
+ITEM-0049;Esparadrapo 2.5cm;452
+ITEM-0050;Mascarilla N95;451
+ITEM-0051;Alcohol 70% 1L;450
+ITEM-0052;Guante Latex Talla S;449
+ITEM-0053;Termómetro Digital;448
+ITEM-0054;Alcohol 70% 1L;447
+ITEM-0055;Bata Desechable;446
+ITEM-0056;Agujas 23G;445
+ITEM-0057;Bata Desechable;444
+ITEM-0058;Pinza Kelly;443
+ITEM-0059;Jeringa 10ml;442
+ITEM-0060;Guantes Esterilizados Par;441
+ITEM-0061;Guante Nitrilo Talla L;440
+ITEM-0062;Esparadrapo 5cm;439
+ITEM-0063;Algodón 250g;438
+ITEM-0064;Tijeras Curvas;437
+ITEM-0065;Alcohol 70% 1L;436
+ITEM-0066;Catéter 18G;435
+ITEM-0067;Termómetro Digital;434
+ITEM-0068;Guante Latex Talla S;433
+ITEM-0069;Tijeras Curvas;432
+ITEM-0070;Mascarilla Quirúrgica;431
+ITEM-0071;Agujas 21G;430
+ITEM-0072;Pinza Mosquito;429
+ITEM-0073;Pinza Kelly;428
+ITEM-0074;Agujas 25G;427
+ITEM-0075;Agujas 23G;426
+ITEM-0076;Bata Desechable;425
+ITEM-0077;Tijeras Rectas;424
+ITEM-0078;Gasas 5x5;423
+ITEM-0079;Cinta Micropore 2;422
+ITEM-0080;Guante Latex Talla S;421
+ITEM-0081;Guante Nitrilo Talla L;420
+ITEM-0082;Cinta Micropore 1;419
+ITEM-0083;Jeringa 5ml;418
+ITEM-0084;Esparadrapo 2.5cm;417
+ITEM-0085;Mascarilla Quirúrgica;416
+ITEM-0086;Guante Latex Talla S;415
+ITEM-0087;Agujas 23G;414
+ITEM-0088;Jeringa 5ml;413
+ITEM-0089;Agujas 23G;412
+ITEM-0090;Alcohol 70% 1L;411
+ITEM-0091;Termómetro Digital;410
+ITEM-0092;Jeringa 10ml;409
+ITEM-0093;Algodón 250g;408
+ITEM-0094;Pinza Mosquito;407
+ITEM-0095;Agujas 21G;406
+ITEM-0096;Bata Desechable;405
+ITEM-0097;Gasas 10x10;404
+ITEM-0098;Bata Desechable;403
+ITEM-0099;Bata Desechable;402
+ITEM-0100;Gasas 5x5;401
+ITEM-0101;Cinta Micropore 1;400
+ITEM-0102;Jeringa 10ml;399
+ITEM-0103;Cinta Micropore 2;398
+ITEM-0104;Catéter 18G;397
+ITEM-0105;Cinta Micropore 1;396
+ITEM-0106;Pinza Mosquito;395
+ITEM-0107;Guante Latex Talla S;394
+ITEM-0108;Pinza Kelly;393
+ITEM-0109;Pinza Mosquito;392
+ITEM-0110;Gasas 10x10;391
+ITEM-0111;Tijeras Curvas;390
+ITEM-0112;Esparadrapo 5cm;389
+ITEM-0113;Jeringa 5ml;388
+ITEM-0114;Gasas 10x10;387
+ITEM-0115;Algodón 250g;386
+ITEM-0116;Termómetro Digital;385
+ITEM-0117;Jeringa 10ml;384
+ITEM-0118;Catéter 18G;383
+ITEM-0119;Pinza Mosquito;382
+ITEM-0120;Cinta Micropore 2;381
+ITEM-0121;Tijeras Curvas;380
+ITEM-0122;Jeringa 5ml;379
+ITEM-0123;Cinta Micropore 1;378
+ITEM-0124;Mascarilla N95;377
+ITEM-0125;Agujas 21G;376
+ITEM-0126;Esparadrapo 2.5cm;375
+ITEM-0127;Esparadrapo 2.5cm;374
+ITEM-0128;Guante Nitrilo Talla L;373
+ITEM-0129;Jeringa 5ml;372
+ITEM-0130;Agujas 21G;371
+ITEM-0131;Guante Nitrilo Talla L;370
+ITEM-0132;Guantes Esterilizados Par;369
+ITEM-0133;Mascarilla N95;368
+ITEM-0134;Termómetro Digital;367
+ITEM-0135;Jeringa 10ml;366
+ITEM-0136;Guante Latex Talla S;365
+ITEM-0137;Gasas 5x5;364
+ITEM-0138;Catéter 18G;363
+ITEM-0139;Tijeras Rectas;362
+ITEM-0140;Agujas 25G;361
+ITEM-0141;Cinta Micropore 2;360
+ITEM-0142;Mascarilla N95;359
+ITEM-0143;Gasas 5x5;358
+ITEM-0144;Pinza Mosquito;357
+ITEM-0145;Suero Fisiológico 1L;356
+ITEM-0146;Termómetro Digital;355
+ITEM-0147;Agujas 25G;354
+ITEM-0148;Catéter 18G;353
+ITEM-0149;Pinza Mosquito;352
+ITEM-0150;Algodón 250g;351
+ITEM-0151;Alcohol 70% 500ml;350
+ITEM-0152;Jeringa 10ml;349
+ITEM-0153;Alcohol 70% 500ml;348
+ITEM-0154;Jeringa 5ml;347
+ITEM-0155;Esparadrapo 5cm;346
+ITEM-0156;Tijeras Curvas;345
+ITEM-0157;Tijeras Curvas;344
+ITEM-0158;Jeringa 10ml;343
+ITEM-0159;Esparadrapo 5cm;342
+ITEM-0160;Tijeras Rectas;341
+ITEM-0161;Venda Elástica 10cm;340
+ITEM-0162;Agujas 25G;339
+ITEM-0163;Tijeras Rectas;338
+ITEM-0164;Termómetro Digital;337
+ITEM-0165;Bata Desechable;336
+ITEM-0166;Jeringa 5ml;335
+ITEM-0167;Alcohol 70% 500ml;334
+ITEM-0168;Suero Fisiológico 500ml;333
+ITEM-0169;Suero Fisiológico 1L;332
+ITEM-0170;Guante Latex Talla S;331
+ITEM-0171;Esparadrapo 2.5cm;330
+ITEM-0172;Guante Nitrilo Talla L;329
+ITEM-0173;Agujas 23G;328
+ITEM-0174;Alcohol 70% 1L;327
+ITEM-0175;Alcohol 70% 500ml;326
+ITEM-0176;Pinza Mosquito;325
+ITEM-0177;Gasas 10x10;324
+ITEM-0178;Guantes Esterilizados Par;323
+ITEM-0179;Cinta Micropore 1;322
+ITEM-0180;Venda Elástica 10cm;321
+ITEM-0181;Pinza Kelly;320
+ITEM-0182;Guante Latex Talla S;319
+ITEM-0183;Termómetro Digital;318
+ITEM-0184;Termómetro Digital;317
+ITEM-0185;Pinza Kelly;316
+ITEM-0186;Algodón 250g;315
+ITEM-0187;Suero Fisiológico 500ml;314
+ITEM-0188;Jeringa 10ml;313
+ITEM-0189;Tijeras Curvas;312
+ITEM-0190;Agujas 23G;311
+ITEM-0191;Guante Nitrilo Talla M;310
+ITEM-0192;Cinta Micropore 1;309
+ITEM-0193;Esparadrapo 5cm;308
+ITEM-0194;Alcohol 70% 1L;307
+ITEM-0195;Cinta Micropore 1;306
+ITEM-0196;Agujas 25G;305
+ITEM-0197;Tijeras Curvas;304
+ITEM-0198;Esparadrapo 2.5cm;303
+ITEM-0199;Jeringa 10ml;302
+ITEM-0200;Esparadrapo 2.5cm;301
+ITEM-0201;Pinza Mosquito;300
+ITEM-0202;Mascarilla N95;299
+ITEM-0203;Alcohol 70% 1L;298
+ITEM-0204;Mascarilla Quirúrgica;297
+ITEM-0205;Venda Elástica 10cm;296
+ITEM-0206;Gasas 10x10;295
+ITEM-0207;Algodón 250g;294
+ITEM-0208;Guante Nitrilo Talla M;293
+ITEM-0209;Esparadrapo 5cm;292
+ITEM-0210;Agujas 25G;291
+ITEM-0211;Esparadrapo 5cm;290
+ITEM-0212;Jeringa 10ml;289
+ITEM-0213;Suero Fisiológico 500ml;288
+ITEM-0214;Esparadrapo 2.5cm;287
+ITEM-0215;Gasas 10x10;286
+ITEM-0216;Suero Fisiológico 500ml;285
+ITEM-0217;Catéter 18G;284
+ITEM-0218;Alcohol 70% 1L;283
+ITEM-0219;Agujas 23G;282
+ITEM-0220;Pinza Mosquito;281
+ITEM-0221;Mascarilla Quirúrgica;280
+ITEM-0222;Agujas 21G;279
+ITEM-0223;Pinza Mosquito;278
+ITEM-0224;Suero Fisiológico 500ml;277
+ITEM-0225;Pinza Kelly;276
+ITEM-0226;Gasas 5x5;275
+ITEM-0227;Alcohol 70% 500ml;274
+ITEM-0228;Bata Desechable;273
+ITEM-0229;Esparadrapo 2.5cm;272
+ITEM-0230;Gasas 10x10;271
+ITEM-0231;Tijeras Curvas;270
+ITEM-0232;Esparadrapo 2.5cm;269
+ITEM-0233;Catéter 18G;268
+ITEM-0234;Suero Fisiológico 500ml;267
+ITEM-0235;Catéter 18G;266
+ITEM-0236;Guante Nitrilo Talla M;265
+ITEM-0237;Pinza Kelly;264
+ITEM-0238;Mascarilla N95;263
+ITEM-0239;Suero Fisiológico 1L;262
+ITEM-0240;Guante Nitrilo Talla M;261
+ITEM-0241;Alcohol 70% 1L;260
+ITEM-0242;Catéter 18G;259
+ITEM-0243;Bata Desechable;258
+ITEM-0244;Agujas 25G;257
+ITEM-0245;Agujas 21G;256
+ITEM-0246;Guantes Esterilizados Par;255
+ITEM-0247;Mascarilla Quirúrgica;254
+ITEM-0248;Jeringa 5ml;253
+ITEM-0249;Guante Nitrilo Talla L;252
+ITEM-0250;Jeringa 5ml;251
+ITEM-0251;Agujas 25G;250
+ITEM-0252;Tijeras Rectas;249
+ITEM-0253;Guante Latex Talla S;248
+ITEM-0254;Guante Latex Talla S;247
+ITEM-0255;Esparadrapo 5cm;246
+ITEM-0256;Suero Fisiológico 1L;245
+ITEM-0257;Agujas 21G;244
+ITEM-0258;Guante Latex Talla S;243
+ITEM-0259;Esparadrapo 2.5cm;242
+ITEM-0260;Tijeras Curvas;241
+ITEM-0261;Esparadrapo 2.5cm;240
+ITEM-0262;Alcohol 70% 500ml;239
+ITEM-0263;Alcohol 70% 500ml;238
+ITEM-0264;Cinta Micropore 1;237
+ITEM-0265;Suero Fisiológico 1L;236
+ITEM-0266;Tijeras Curvas;235
+ITEM-0267;Gasas 10x10;234
+ITEM-0268;Jeringa 10ml;233
+ITEM-0269;Suero Fisiológico 500ml;232
+ITEM-0270;Agujas 23G;231
+ITEM-0271;Pinza Kelly;230
+ITEM-0272;Venda Elástica 10cm;229
+ITEM-0273;Gasas 5x5;228
+ITEM-0274;Catéter 18G;227
+ITEM-0275;Tijeras Curvas;226
+ITEM-0276;Esparadrapo 2.5cm;225
+ITEM-0277;Esparadrapo 5cm;224
+ITEM-0278;Cinta Micropore 2;223
+ITEM-0279;Gasas 5x5;222
+ITEM-0280;Cinta Micropore 2;221
+ITEM-0281;Mascarilla Quirúrgica;220
+ITEM-0282;Termómetro Digital;219
+ITEM-0283;Cinta Micropore 1;218
+ITEM-0284;Pinza Mosquito;217
+ITEM-0285;Bata Desechable;216
+ITEM-0286;Algodón 250g;215
+ITEM-0287;Agujas 25G;214
+ITEM-0288;Suero Fisiológico 500ml;213
+ITEM-0289;Algodón 250g;212
+ITEM-0290;Alcohol 70% 1L;211
+ITEM-0291;Jeringa 5ml;210
+ITEM-0292;Jeringa 5ml;209
+ITEM-0293;Guante Latex Talla S;208
+ITEM-0294;Mascarilla N95;207
+ITEM-0295;Guante Nitrilo Talla M;206
+ITEM-0296;Tijeras Rectas;205
+ITEM-0297;Tijeras Curvas;204
+ITEM-0298;Jeringa 5ml;203
+ITEM-0299;Tijeras Rectas;202
+ITEM-0300;Jeringa 5ml;201
+ITEM-0301;Guante Nitrilo Talla M;200
+ITEM-0302;Guante Latex Talla S;199
+ITEM-0303;Cinta Micropore 2;198
+ITEM-0304;Pinza Mosquito;197
+ITEM-0305;Guante Nitrilo Talla L;196
+ITEM-0306;Jeringa 5ml;195
+ITEM-0307;Guante Latex Talla S;194
+ITEM-0308;Agujas 25G;193
+ITEM-0309;Guante Nitrilo Talla L;192
+ITEM-0310;Agujas 23G;191
+ITEM-0311;Mascarilla N95;190
+ITEM-0312;Guante Latex Talla S;189
+ITEM-0313;Suero Fisiológico 500ml;188
+ITEM-0314;Jeringa 5ml;187
+ITEM-0315;Jeringa 10ml;186
+ITEM-0316;Cinta Micropore 1;185
+ITEM-0317;Suero Fisiológico 1L;184
+ITEM-0318;Gasas 5x5;183
+ITEM-0319;Tijeras Curvas;182
+ITEM-0320;Alcohol 70% 500ml;181
+ITEM-0321;Esparadrapo 5cm;180
+ITEM-0322;Catéter 18G;179
+ITEM-0323;Agujas 25G;178
+ITEM-0324;Tijeras Rectas;177
+ITEM-0325;Tijeras Rectas;176
+ITEM-0326;Suero Fisiológico 1L;175
+ITEM-0327;Jeringa 5ml;174
+ITEM-0328;Guantes Esterilizados Par;173
+ITEM-0329;Suero Fisiológico 1L;172
+ITEM-0330;Guantes Esterilizados Par;171
+ITEM-0331;Venda Elástica 10cm;170
+ITEM-0332;Gasas 5x5;169
+ITEM-0333;Alcohol 70% 1L;168
+ITEM-0334;Alcohol 70% 1L;167
+ITEM-0335;Cinta Micropore 1;166
+ITEM-0336;Venda Elástica 10cm;165
+ITEM-0337;Bata Desechable;164
+ITEM-0338;Venda Elástica 10cm;163
+ITEM-0339;Venda Elástica 10cm;162
+ITEM-0340;Algodón 250g;161
+ITEM-0341;Agujas 23G;160
+ITEM-0342;Esparadrapo 5cm;159
+ITEM-0343;Guante Nitrilo Talla L;158
+ITEM-0344;Cinta Micropore 1;157
+ITEM-0345;Pinza Mosquito;156
+ITEM-0346;Pinza Mosquito;155
+ITEM-0347;Alcohol 70% 1L;154
+ITEM-0348;Guante Nitrilo Talla L;153
+ITEM-0349;Termómetro Digital;152
+ITEM-0350;Esparadrapo 5cm;151
+ITEM-0351;Mascarilla N95;150
+ITEM-0352;Guantes Esterilizados Par;149
+ITEM-0353;Agujas 23G;148
+ITEM-0354;Alcohol 70% 1L;147
+ITEM-0355;Jeringa 5ml;146
+ITEM-0356;Gasas 5x5;145
+ITEM-0357;Gasas 5x5;144
+ITEM-0358;Tijeras Curvas;143
+ITEM-0359;Algodón 250g;142
+ITEM-0360;Alcohol 70% 500ml;141
+ITEM-0361;Venda Elástica 10cm;140
+ITEM-0362;Gasas 10x10;139
+ITEM-0363;Jeringa 10ml;138
+ITEM-0364;Algodón 250g;137
+ITEM-0365;Jeringa 5ml;136
+ITEM-0366;Agujas 23G;135
+ITEM-0367;Catéter 18G;134
+ITEM-0368;Guante Latex Talla S;133
+ITEM-0369;Algodón 250g;132
+ITEM-0370;Guantes Esterilizados Par;131
+ITEM-0371;Agujas 23G;130
+ITEM-0372;Agujas 23G;129
+ITEM-0373;Tijeras Curvas;128
+ITEM-0374;Alcohol 70% 1L;127
+ITEM-0375;Guante Nitrilo Talla L;126
+ITEM-0376;Pinza Mosquito;125
+ITEM-0377;Tijeras Curvas;124
+ITEM-0378;Agujas 21G;123
+ITEM-0379;Guante Nitrilo Talla M;122
+ITEM-0380;Guante Latex Talla S;121
+ITEM-0381;Catéter 18G;120
+ITEM-0382;Esparadrapo 2.5cm;119
+ITEM-0383;Agujas 23G;118
+ITEM-0384;Jeringa 5ml;117
+ITEM-0385;Gasas 10x10;116
+ITEM-0386;Venda Elástica 10cm;115
+ITEM-0387;Suero Fisiológico 1L;114
+ITEM-0388;Suero Fisiológico 1L;113
+ITEM-0389;Gasas 5x5;112
+ITEM-0390;Agujas 23G;111
+ITEM-0391;Termómetro Digital;110
+ITEM-0392;Agujas 25G;109
+ITEM-0393;Guante Nitrilo Talla L;108
+ITEM-0394;Gasas 10x10;107
+ITEM-0395;Termómetro Digital;106
+ITEM-0396;Guante Nitrilo Talla M;105
+ITEM-0397;Termómetro Digital;104
+ITEM-0398;Jeringa 10ml;103
+ITEM-0399;Catéter 18G;102
+ITEM-0400;Guantes Esterilizados Par;101
+ITEM-0401;Guantes Esterilizados Par;100
+ITEM-0402;Algodón 250g;99
+ITEM-0403;Mascarilla Quirúrgica;98
+ITEM-0404;Venda Elástica 10cm;97
+ITEM-0405;Cinta Micropore 2;96
+ITEM-0406;Esparadrapo 5cm;95
+ITEM-0407;Guantes Esterilizados Par;94
+ITEM-0408;Tijeras Curvas;93
+ITEM-0409;Cinta Micropore 1;92
+ITEM-0410;Cinta Micropore 2;91
+ITEM-0411;Suero Fisiológico 1L;90
+ITEM-0412;Alcohol 70% 500ml;89
+ITEM-0413;Gasas 5x5;88
+ITEM-0414;Mascarilla Quirúrgica;87
+ITEM-0415;Gasas 5x5;86
+ITEM-0416;Guante Nitrilo Talla L;85
+ITEM-0417;Tijeras Rectas;84
+ITEM-0418;Esparadrapo 5cm;83
+ITEM-0419;Tijeras Curvas;82
+ITEM-0420;Guante Nitrilo Talla L;81
+ITEM-0421;Esparadrapo 5cm;80
+ITEM-0422;Mascarilla N95;79
+ITEM-0423;Guante Nitrilo Talla L;78
+ITEM-0424;Guante Nitrilo Talla L;77
+ITEM-0425;Tijeras Rectas;76
+ITEM-0426;Suero Fisiológico 1L;75
+ITEM-0427;Suero Fisiológico 500ml;74
+ITEM-0428;Catéter 18G;73
+ITEM-0429;Agujas 23G;72
+ITEM-0430;Suero Fisiológico 500ml;71
+ITEM-0431;Gasas 10x10;70
+ITEM-0432;Guante Nitrilo Talla L;69
+ITEM-0433;Suero Fisiológico 500ml;68
+ITEM-0434;Guante Latex Talla S;67
+ITEM-0435;Agujas 23G;66
+ITEM-0436;Gasas 10x10;65
+ITEM-0437;Guante Latex Talla S;64
+ITEM-0438;Pinza Kelly;63
+ITEM-0439;Guante Latex Talla S;62
+ITEM-0440;Cinta Micropore 1;61
+ITEM-0441;Agujas 23G;60
+ITEM-0442;Jeringa 5ml;59
+ITEM-0443;Termómetro Digital;58
+ITEM-0444;Alcohol 70% 1L;57
+ITEM-0445;Agujas 25G;56
+ITEM-0446;Tijeras Rectas;55
+ITEM-0447;Jeringa 5ml;54
+ITEM-0448;Tijeras Rectas;53
+ITEM-0449;Pinza Kelly;52
+ITEM-0450;Guante Nitrilo Talla L;51
+ITEM-0451;Pinza Kelly;50
+ITEM-0452;Guante Latex Talla S;49
+ITEM-0453;Venda Elástica 10cm;48
+ITEM-0454;Cinta Micropore 1;47
+ITEM-0455;Tijeras Rectas;46
+ITEM-0456;Tijeras Rectas;45
+ITEM-0457;Suero Fisiológico 500ml;44
+ITEM-0458;Mascarilla N95;43
+ITEM-0459;Catéter 18G;42
+ITEM-0460;Jeringa 10ml;41
+ITEM-0461;Gasas 5x5;40
+ITEM-0462;Cinta Micropore 1;39
+ITEM-0463;Cinta Micropore 2;38
+ITEM-0464;Mascarilla N95;37
+ITEM-0465;Jeringa 5ml;36
+ITEM-0466;Jeringa 10ml;35
+ITEM-0467;Termómetro Digital;34
+ITEM-0468;Alcohol 70% 500ml;33
+ITEM-0469;Cinta Micropore 1;32
+ITEM-0470;Pinza Mosquito;31
+ITEM-0471;Mascarilla Quirúrgica;30
+ITEM-0472;Algodón 250g;29
+ITEM-0473;Mascarilla N95;28
+ITEM-0474;Catéter 18G;27
+ITEM-0475;Esparadrapo 2.5cm;26
+ITEM-0476;Catéter 18G;25
+ITEM-0477;Guante Latex Talla S;24
+ITEM-0478;Guante Nitrilo Talla M;23
+ITEM-0479;Algodón 250g;22
+ITEM-0480;Pinza Kelly;21
+ITEM-0481;Tijeras Rectas;20
+ITEM-0482;Alcohol 70% 1L;19
+ITEM-0483;Guante Latex Talla S;18
+ITEM-0484;Tijeras Curvas;17
+ITEM-0485;Gasas 5x5;16
+ITEM-0486;Suero Fisiológico 500ml;15
+ITEM-0487;Jeringa 10ml;14
+ITEM-0488;Alcohol 70% 500ml;13
+ITEM-0489;Catéter 18G;12
+ITEM-0490;Bata Desechable;11
+ITEM-0491;Agujas 25G;10
+ITEM-0492;Guante Latex Talla S;9
+ITEM-0493;Agujas 25G;8
+ITEM-0494;Jeringa 5ml;7
+ITEM-0495;Bata Desechable;6
+ITEM-0496;Mascarilla Quirúrgica;5
+ITEM-0497;Gasas 10x10;4
+ITEM-0498;Algodón 250g;3
+ITEM-0499;Agujas 21G;2
+ITEM-0500;Tijeras Curvas;1
