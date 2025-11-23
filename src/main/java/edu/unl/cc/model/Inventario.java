@@ -28,8 +28,9 @@ public class Inventario implements Comparable<Inventario> {
         String[] p = line.split(";");
         return new Inventario(
                 p[0],     // id
-                p[2],     // stock (tercera columna)
-                p[1]      // insumo (segunda columna)
+                p[1],      // insumo (segunda columna)
+                p[2]    // stock (tercera columna)
+
         );
     }
 
