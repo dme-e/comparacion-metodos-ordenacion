@@ -4,10 +4,22 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 import edu.unl.cc.algorithms.SortAlgorithm;
-//Sirve para medir correctamente los tiempos
 
 public class Benchmark {
 
+    /**
+     * Ejecuta el algoritmo `R` veces sobre copias del arreglo original,
+     * mide el tiempo de ejecución en nanosegundos y devuelve las métricas
+     * de la última ejecución con el campo `timeNs` sustituido por la mediana
+     * de todos los tiempos medidos.
+     *
+     * @param algorithm  implementación de SortAlgorithm a evaluar
+     * @param original   arreglo de entrada (no se modifica)
+     * @param comparator comparador para el tipo T
+     * @param R          número de repeticiones (debe ser > 0)
+     * @param <T>        tipo de los elementos del arreglo
+     * @return SortMetrics de la última ejecución con timeNs = mediana de tiempos
+     */
     public static <T> SortMetrics run(
             SortAlgorithm<T> algorithm,
             T[] original,
@@ -21,7 +33,7 @@ public class Benchmark {
 
         for (int i = 0; i < R; i++) {
 
-            // Copia fresca del arreglo original
+            // Copia fresca del arreglo original para cada ejecución
             T[] arr = Arrays.copyOf(original, original.length);
 
             SortMetrics metrics = new SortMetrics();
@@ -35,7 +47,7 @@ public class Benchmark {
             lastMetrics = metrics;
         }
 
-        // Ordenamos tiempos y sacamos la mediana
+        // Ordenar los tiempos y tomar la mediana como valor representativo
         Arrays.sort(times);
 
         long median = times[R / 2];

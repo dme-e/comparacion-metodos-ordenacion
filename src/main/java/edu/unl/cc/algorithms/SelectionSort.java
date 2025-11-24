@@ -1,6 +1,5 @@
 package edu.unl.cc.algorithms;
 
-
 import edu.unl.cc.instrumentation.SortMetrics;
 
 import java.util.Comparator;

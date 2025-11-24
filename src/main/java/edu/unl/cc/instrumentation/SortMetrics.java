@@ -5,7 +5,6 @@ public class SortMetrics {
     public long swaps = 0;
     public long timeNs = 0;
 
-
     @Override
     public String toString() {
         return "comparisons=" + comparisons +

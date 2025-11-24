@@ -75,8 +75,10 @@ public class Main {
     }
 
     /**
-     * Carga y procesa un archivo CSV, generando comparativas de rendimiento
-     * entre los tres algoritmos de ordenamiento.
+     * Carga y procesa un archivo CSV; determina el tipo de datos y
+     * ejecuta las comparativas de rendimiento entre algoritmos.
+     *
+     * @param path ruta relativa del archivo en recursos
      */
     private static void procesarArchivo(String path) throws Exception {
 
@@ -95,8 +97,8 @@ public class Main {
     }
 
     /**
-     * Carga datos del archivo CSV identificando dinámicamente su tipo
-     * basándose en el nombre del archivo.
+     * Determina el tipo de entidad a partir del nombre del archivo y
+     * utiliza el cargador CSV correspondiente.
      */
     private static Object[] cargarDatosDinamico(String path) throws Exception {
 
@@ -113,8 +115,8 @@ public class Main {
     }
 
     /**
-     * Retorna un Comparator específico del tipo de objeto,
-     * determinado mediante pattern matching instanceof.
+     * Crea un Comparator genérico según el tipo de la primera instancia
+     * (pattern matching mediante instanceof).
      */
     private static Comparator<Object> crearComparator(Object obj) {
 
@@ -130,6 +132,10 @@ public class Main {
         throw new RuntimeException("No existe comparator para este tipo.");
     }
 
+    /**
+     * Ejecuta los algoritmos de ordenamiento (burbuja, inserción, selección)
+     * sobre los datos proporcionados y muestra los resultados de métricas.
+     */
     private static void ejecutarComparaciones(Object[] datos, Comparator<Object> cmp) {
 
         System.out.println("\n-----------------------------------------------------");
@@ -138,20 +144,17 @@ public class Main {
         SortAlgorithm<Object> insertion = new InsertionSort<>();
         SortAlgorithm<Object> selection = new SelectionSort<>();
 
-        int R = 10; //repeticiones que se ejecuta cada algoritmo para medir nuestro tiempo
+        int R = 10; // Número de repeticiones para promediar tiempos/métricas
 
         SortMetrics mb = Benchmark.run(bubble, datos, cmp, R);
         SortMetrics mi = Benchmark.run(insertion, datos, cmp, R);
         SortMetrics ms = Benchmark.run(selection, datos, cmp, R);
 
         Recomendation.generate(datos, mb, mi, ms);
-
-
-        System.out.println("-----------------------------------------------------");
+        System.out.println("\n-----------------------------------------------------");
         System.out.println("                   RESULTADOS                       ");
         System.out.println("-----------------------------------------------------");
-        System.out.printf("%-13s %-15s %-10" +
-                "s %-15s\n", "ALGORITMO", "COMPARACIONES", "SWAPS", "TIEMPO(ns)");
+        System.out.printf("%-13s %-15s %-10" + "s %-15s\n", "ALGORITMO", "COMPARACIONES", "SWAPS", "TIEMPO(ns)");
         System.out.println("-----------------------------------------------------");
         System.out.printf("%-13s %-15d %-10d %-15d\n", "Burbuja", mb.comparisons, mb.swaps, mb.timeNs);
         System.out.printf("%-13s %-15d %-10d %-15d\n", "Inserción", mi.comparisons, mi.swaps, mi.timeNs);
