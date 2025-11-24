@@ -24,7 +24,7 @@ public class Pacientes implements Comparable<Pacientes> {
         if (cmp != 0)
             return cmp;
 
-        // Si tienen la misma prioridad → ordenar por apellido
+        // Si tienen la misma prioridad se ordenará por apellido
         return this.apellido.compareTo(other.apellido);
     }
 

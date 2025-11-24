@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 import edu.unl.cc.algorithms.SortAlgorithm;
+//Sirve para medir correctamente los tiempos
 
 public class Benchmark {
 
@@ -12,7 +13,8 @@ public class Benchmark {
             T[] original,
             Comparator<T> comparator,
             int R
-    ) {
+    )
+    {
 
         long[] times = new long[R];
         SortMetrics lastMetrics = null;
@@ -33,7 +35,7 @@ public class Benchmark {
             lastMetrics = metrics;
         }
 
-        // Ordenar tiempos → mediana
+        // Ordenamos tiempos y sacamos la mediana
         Arrays.sort(times);
 
         long median = times[R / 2];

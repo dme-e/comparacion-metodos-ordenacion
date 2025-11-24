@@ -3,6 +3,7 @@ package edu.unl.cc.run;
 import java.util.Comparator;
 import java.util.Scanner;
 
+import edu.unl.cc.analysis.Recomendation;
 import edu.unl.cc.dataset.CSVloader;
 import edu.unl.cc.model.Citas;
 import edu.unl.cc.model.Inventario;
@@ -42,11 +43,16 @@ public class Main {
             String path;
 
             switch (option) {
-                case 1 -> path = "citas_100.csv";
-                case 2 -> path = "citas_100_casi_ordenado.csv";
-                case 3 -> path = "inventario_500_inverso.csv";
-                case 4 -> path = "pacientes_500.csv";
-                case 0 -> {
+                case 1 ->
+                        path = "citas_100.csv";
+                case 2 ->
+                        path = "citas_100_casi_ordenado.csv";
+                case 3 ->
+                        path = "inventario_500_inverso.csv";
+                case 4 ->
+                        path = "pacientes_500.csv";
+                case 0 ->
+                {
                     System.out.println("Saliendo...");
                     return;
                 }
@@ -124,10 +130,6 @@ public class Main {
         throw new RuntimeException("No existe comparator para este tipo.");
     }
 
-    /**
-     * Ejecuta Bubble Sort, Insertion Sort y Selection Sort con R iteraciones,
-     * registra métricas de desempeño y muestra comparativa de resultados en tabla formateada.
-     */
     private static void ejecutarComparaciones(Object[] datos, Comparator<Object> cmp) {
 
         System.out.println("\n-----------------------------------------------------");
@@ -136,11 +138,14 @@ public class Main {
         SortAlgorithm<Object> insertion = new InsertionSort<>();
         SortAlgorithm<Object> selection = new SelectionSort<>();
 
-        int R = 10;
+        int R = 10; //repeticiones que se ejecuta cada algoritmo para medir nuestro tiempo
 
         SortMetrics mb = Benchmark.run(bubble, datos, cmp, R);
         SortMetrics mi = Benchmark.run(insertion, datos, cmp, R);
         SortMetrics ms = Benchmark.run(selection, datos, cmp, R);
+
+        Recomendation.generate(datos, mb, mi, ms);
+
 
         System.out.println("-----------------------------------------------------");
         System.out.println("                   RESULTADOS                       ");
